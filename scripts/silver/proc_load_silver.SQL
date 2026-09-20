@@ -49,7 +49,7 @@ begin try
 		cst_create_date
 		from (select *
 		from 
-		(select *, dense_rank() over (partition by cst_id order by cst_create_date desc) as date_rank
+		(select *, row_number() over (partition by cst_id order by cst_create_date desc) as date_rank
 		from [bronze].[crm_cust_info]) t
 		where date_rank = 1 and cst_id is not null) t;
 		set @end_time = getdate();
