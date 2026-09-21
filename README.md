@@ -80,7 +80,7 @@ data-warehouse-project/
 │
 ├── docs/                                                             # Project documentation and architecture details
 │   ├──20.09.2026. the_Data_Architecture (Draw.io).drawio             # Draw.io file shows the project's architecture
-├   ├──LICENSE                                                          # License information for the repository
+├   ├──LICENSE                                                        # License information for the repository
 │   ├── Sales_Data_Mart_(Star Schema).png                             # The Data Star Schema
 │   ├── data_architecture.png                                         # Diagram of the data architecture
 │   └── data_flow.png                                                 # Diagram og the Data flow
