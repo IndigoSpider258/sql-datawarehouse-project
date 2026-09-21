@@ -64,7 +64,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 
-
+![Data Architecture](docs/data_architecture.png)
 
 1. Bronze Layer: Store raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 
