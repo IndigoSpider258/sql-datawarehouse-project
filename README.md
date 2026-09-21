@@ -73,13 +73,14 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 3. Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics
 
 # The Repository Structure
+```text
 data-warehouse-project/
 │
 ├── datasets/                                                         # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                                                             # Project documentation and architecture details
 │   ├──20.09.2026. the_Data_Architecture (Draw.io).drawio             # Draw.io file shows the project's architecture
-├   ├LICENSE                                                          # License information for the repository
+├   ├──LICENSE                                                          # License information for the repository
 │   ├── Sales_Data_Mart_(Star Schema).png                             # The Data Star Schema
 │   ├── data_architecture.png                                         # Diagram of the data architecture
 │   └── data_flow.png                                                 # Diagram og the Data flow
@@ -93,6 +94,7 @@ data-warehouse-project/
 ├── tests/                                                            # Test scripts and quality files (for silver and gold layers)
 │
 ├── README.md                                                         # Project overview and instructions
+```
 
 # About Me
 
