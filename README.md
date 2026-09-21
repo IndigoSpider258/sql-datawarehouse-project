@@ -75,27 +75,25 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 # The Repository Structure
 data-warehouse-project/
 │
-├── datasets/                  # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                                                         # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                      # Project documentation and architecture details
-│   ├── etl.drawio             # Draw.io file shows all different techniques and methods of ETL
-│   ├── data_architecture.drawio # Draw.io file shows the project's architecture
-│   ├── data_catalog.md        # Data catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio       # Draw.io file for the data flow diagram
-│   ├── data_models.drawio     # Draw.io file for data models (star schema)
-│   └── naming-conventions.md  # Consistent naming guidelines for tables, columns, and files
+├── docs/                                                             # Project documentation and architecture details
+│   ├──20.09.2026. the_Data_Architecture (Draw.io).drawio             # Draw.io file shows the project's architecture
+├   ├LICENSE                                                          # License information for the repository
+│   ├── Sales_Data_Mart_(Star Schema).png                             # The Data Star Schema
+│   ├── data_architecture.png                                         # Diagram of the data architecture
+│   └── data_flow.png                                                 # Diagram og the Data flow
+│   └── integration_model.png                                         # the Data Integrational model
 │
-├── scripts/                   # SQL scripts for ETL and transformations
-│   ├── bronze/                # Scripts for extracting and loading raw data
-│   ├── silver/                # Scripts for cleaning and transforming data
-│   └── gold/                  # Scripts for creating analytical models
+├── scripts/                                                          # SQL scripts for ETL and transformations
+│   ├── bronze/                                                       # Scripts for extracting and loading raw data
+│   ├── silver/                                                       # Scripts for cleaning and transforming data
+│   └── gold/                                                         # Scripts for creating analytical models
 │
-├── tests/                     # Test scripts and quality files
+├── tests/                                                            # Test scripts and quality files (for silver and gold layers)
 │
-├── README.md                  # Project overview and instructions
-├── LICENSE                    # License information for the repository
-├── .gitignore                 # Files and directories to be ignored by Git
-└── requirements.txt           # Dependencies and requirements for the project
+├── README.md                                                         # Project overview and instructions
+
 # About Me
 
 Hi! I'm Iryna, a second-year Management student who is interested in data analytics.
